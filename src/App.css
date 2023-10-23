@@ -1,0 +1,155 @@
+/* write your css here */
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #18387A; */
+    background: linear-gradient(90deg, rgba(162,196,237,1) 4%, rgba(15,194,231,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 1rem;
+}
+
+.todoHeading{
+    font-size: 3.5rem;
+    color: black;
+    /* border-bottom: 1px solid black; */
+    padding: 10px;
+
+}
+.line{
+    width: 80%;
+    border-bottom: 1px solid black;
+}
+
+.input{
+    padding: 10px;
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.input{
+    width: 80%;
+    outline: none;
+}
+
+.line1{
+    width: 90%;
+    text-align: left;
+}
+.widht{
+    width: 80%;
+}
+
+.btn1{
+    padding: 10px 15px;
+    background: rgb(13, 167, 245);
+    border-radius: 2px;
+    color: white;
+    
+}
+.btnx1{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    
+}
+
+.plus{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+    width: 35vw;
+    margin-top: 10px;
+}
+/*  */
+.taskItem{
+    width: 50%;
+    display: flex;
+    padding: 10px 100px 10px 0px ;
+}
+
+.btn2{
+    outline: none;
+    opacity: 1;
+    /* background: red; */
+}
+
+@media only screen and (max-width: 1564px)
+{
+    .plus{
+        display: none;
+    }
+    .btn1{
+        padding: 0px 20px;
+    }
+    .with{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding: 10px; */
+    }
+}
+
+
+@media only screen and (max-width: 945px)
+{
+    .h1tag{
+        font-size: 1rem;
+    }
+    .todoHeadin{
+        font-size: 1rem;
+    }
+}
+
+.h1tag{
+    font-size: 2.5rem;
+}
+
+/* 603 */
+@media only screen and (max-width:603px)
+{
+    .h1tag{
+        font-size: 1.5rem;
+    }
+}
+/* 603 */
+@media only screen and (max-width:757px)
+{
+    .content{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:370px)
+{
+    .content{
+        width: 95%;
+    }
+    li{
+        /* width: 50vw; */
+    }
+}
